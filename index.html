@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ff5b9a">
+  <meta name="description" content="صفحه ورود">
+  <title>ورود</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=2026.09.27">
+</head>
+<body>
+  <!-- Secret entrance -->
+  <div class="gate" id="gate">
+    <div class="gate-glow glow-one"></div>
+    <div class="gate-glow glow-two"></div>
+    <div class="gate-particles" aria-hidden="true"></div>
+    <div class="gate-card">
+      <div class="gate-ribbon">ورود</div>
+      <div class="gate-heart">♡</div>
+      <p class="gate-kicker">برای ادامه</p>
+      <h1>اسمت رو به فارسی<br><em>وارد کن</em></h1>
+      <p class="gate-text">اسم کوچیکت رو وارد کن تا ادامه بدی.</p>
+      <form id="nameForm" autocomplete="off">
+        <label for="nameInput">نام کوچک</label>
+        <div class="name-field">
+          <input id="nameInput" type="text" inputmode="text" placeholder="نام کوچک" maxlength="20" aria-label="اسم کوچیک">
+          <button type="submit" aria-label="ورود">♡</button>
+        </div>
+        <p class="gate-error" id="gateError" aria-live="polite"></p>
+      </form>
+      <div class="gate-bottom">welcome ✦</div>
+    </div>
+  </div>
+
+  <div class="site" id="site" aria-hidden="true">
+    <div class="grain"></div>
+    <div class="aurora aurora-a"></div>
+    <div class="aurora aurora-b"></div>
+    <div class="hearts-layer" id="heartsLayer" aria-hidden="true"></div>
+
+    <header class="hero" id="home">
+      <nav class="nav">
+        <a class="logo" href="#home"><span>♡</span> my little world</a>
+        <div class="nav-links">
+          <a href="#story">قصه</a>
+          <a href="#gallery">گالری</a>
+          <a href="#reasons">چرا تو؟</a>
+          <a href="#final">آخرش ♡</a>
+        </div>
+        <button class="nav-btn" id="navHeart" aria-label="قلب">♡</button>
+      </nav>
+
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <div class="tiny-pill"><span class="live-dot"></span> فقط برای قشنگم</div>
+          <p class="hero-overline">a tiny website for my favorite person</p>
+          <h1>تو همون<br><span>«قشنگِ بی‌دلیل»</span><br>زندگی منی.</h1>
+          <p class="hero-description">یه سایت ساختم که وقتی بازش می‌کنی، حس نکنی فقط یه صفحه‌ی اینترنتیه؛ حس کنی یه گوشه از دلم رو باز کردی.</p>
+          <div class="hero-actions">
+            <a class="btn-main" href="#gallery">بریم عکس‌هاتو ببینیم <span>↓</span></a>
+            <a class="btn-soft" href="#story">اول قصه رو بخون ♡</a>
+          </div>
+          <div class="hero-meta"><span>♡</span> برای یک نفر، با دقت زیاد ساخته شده</div>
+        </div>
+
+        <div class="hero-art">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="hero-card main-polaroid">
+            <div class="image-frame"><img src="assets/photo3.jpg" alt="عکس قشنگ" fetchpriority="high"></div>
+            <div class="polaroid-caption"><span>my favorite view</span><b>♡</b></div>
+          </div>
+          <div class="mini-polaroid mini-a"><img src="assets/vintage.jpg" alt="خاطره‌ی نوستالژیک"><span>عمرم ♡</span></div>
+          <div class="mini-polaroid mini-b"><img src="assets/photo2.jpg" alt="عکس در فضای سبز"><span>pretty, as always</span></div>
+          <div class="sticker sticker-a">for<br>you ♡</div>
+          <div class="sticker sticker-b">✦</div>
+        </div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>آروم اسکرول کن</span><i></i>
+      </div>
+    </header>
+
+    <main>
+      <section class="marquee-wrap" aria-hidden="true">
+        <div class="marquee"><span>قشنگم ♡</span><b>✦</b><span>my favorite human</span><b>♡</b><span>قشنگم ♡</span><b>✦</b><span>stay soft</span><b>♡</b><span>قشنگم ♡</span></div>
+      </section>
+
+      <section class="intro section" id="story">
+        <div class="section-tag">01 / little love letter</div>
+        <div class="intro-grid">
+          <div class="intro-title reveal"><p>بذار یه چیزی رو خیلی ساده بگم...</p><h2>از بین این همه آدم،<br><em>تو شدی آدمِ من.</em></h2></div>
+          <div class="intro-copy reveal delay-1">
+            <p>این سایت قرار نیست فقط خوشگل باشه. می‌خوام هر تیکه‌ش یه لبخند کوچیک روی صورتت بیاره؛ از همون لبخندایی که آدم دلش می‌خواد دلیلش باشه.</p>
+            <p>عکس‌هات رو گذاشتم اینجا، چندتا جمله هم قاطیش کردم، یه عالمه صورتی و قلب و ستاره هم ریختم وسطش؛ چون خب... تو ارزش یه عالمه ذوق رو داری.</p>
+            <div class="signature">— برای قشنگم، با عشق <span>♡</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section section" id="gallery">
+        <div class="section-head">
+          <div><div class="section-tag">02 / your little gallery</div><h2>قاب‌هایی که <em>دوست دارم</em></h2></div>
+          <p>هرکدومشون یه حال‌وهوای جدا دارن.<br>روشون بزن؛ بزرگ می‌شن. ♡</p>
+        </div>
+        <div class="bento-gallery">
+          <button class="gallery-card card-large reveal" data-full="assets/photo1.jpg"><img src="assets/photo1.jpg" alt="عکس در خانه"><span class="card-label">soft girl energy ♡</span><b>↗</b></button>
+          <button class="gallery-card card-square reveal delay-1" data-full="assets/photo2.jpg"><img src="assets/photo2.jpg" alt="عکس در فضای سبز"><span class="card-label">pretty day</span><b>↗</b></button>
+          <button class="gallery-card card-square reveal delay-2" data-full="assets/story2.jpg"><img src="assets/story2.jpg" alt="استایل روشن"><span class="card-label">main character</span><b>↗</b></button>
+          <button class="gallery-card card-wide reveal" data-full="assets/story3.jpg"><img src="assets/story3.jpg" alt="عکس دونفره و استایل مشکی"><span class="card-label">a little moment ♡</span><b>↗</b></button>
+          <button class="gallery-card card-tall reveal delay-1" data-full="assets/story1.jpg"><img src="assets/story1.jpg" alt="استایل کرم و بوت مشکی"><span class="card-label">دورت بگردم ♡</span><b>↗</b></button>
+          <button class="gallery-card card-tall reveal delay-2" data-full="assets/story5.jpg"><img src="assets/story5.jpg" alt="عکس در موزه"><span class="card-label">نفسم ✦</span><b>↗</b></button>
+          <button class="gallery-card card-wide reveal" data-full="assets/story4.jpg"><img src="assets/story4.jpg" alt="عکس قدیمی و خاطره‌انگیز"><span class="card-label">قلبم ♡</span><b>↗</b></button>
+          <button class="gallery-card card-square reveal delay-1" data-full="assets/vintage.jpg"><img src="assets/vintage.jpg" alt="عکس نوستالژیک"><span class="card-label">جیگرم ✦</span><b>↗</b></button>
+          <button class="gallery-card card-eyes reveal delay-2" data-full="assets/eyes.jpg"><img src="assets/eyes.jpg" alt="چشم‌ها"><span class="eyes-caption">چشمات؛<br><em>دنیای من. ♡</em></span><b>↗</b></button>
+        </div>
+      </section>
+
+      <section class="reasons-section section" id="reasons">
+        <div class="section-head centered"><div class="section-tag">03 / a few reasons</div><h2>چرا تو؟<br><em>سؤال سختیه...</em></h2><p>چون لیستش تموم نمی‌شه.</p></div>
+        <div class="reason-grid">
+          <article class="reason-card pink reveal"><span>01</span><h3>نگاهت</h3><p>یه جوریه که آدم وسط هزار تا چیز، یهو یادش می‌ره داشت به چی فکر می‌کرد.</p><i>♡</i></article>
+          <article class="reason-card cream reveal delay-1"><span>02</span><h3>خنده‌ت</h3><p>از اون چیزاست که حتی توی یه روز معمولی هم می‌تونه یه قسمت کوچیکشو قشنگ کنه.</p><i>✦</i></article>
+          <article class="reason-card lilac reveal delay-2"><span>03</span><h3>خودت</h3><p>همین خودِ قشنگت؛ همونی که قلبم باهاش حالش خوب می‌شه. ❤️</p><i>♡</i></article>
+          <article class="reason-card dark reveal"><span>04</span><h3>حضورِ تو</h3><p>عمرم، بودنت خودش یه حس خوبه؛ از اون حس‌هایی که دلم نمی‌خواد تموم بشه. ♡</p><i>✦</i></article>
+        </div>
+      </section>
+
+      <section class="memory-section section">
+        <div class="memory-shell">
+          <div class="memory-copy reveal">
+            <div class="section-tag">04 / little memories</div>
+            <h2>یه مشت لحظه‌ی کوچیک،<br><em>برای قلبم خیلی بزرگ.</em></h2>
+            <p>دورت بگردم، بعضی لحظه‌ها انقدر شیرینن که آدم دلش می‌خواد نگهشون داره؛ این گوشه رو ساختم که هر بار می‌بینیش، یه لبخند قشنگ روی لبت بیاد. ♡</p>
+            <div class="memory-line"><span></span><b>keep this little place</b><span></span></div>
+          </div>
+          <div class="memory-stack reveal delay-1">
+            <div class="stack-card stack-back"><img src="assets/story2.jpg" alt="خاطره"></div>
+            <div class="stack-card stack-front"><img src="assets/photo1.jpg" alt="خاطره"></div>
+            <div class="stack-note">dear you,<br><strong>دورت بگردم؛ تو قشنگیِ روزای معمولی منی.</strong><br>♡</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="open-section section">
+        <div class="section-head centered"><div class="section-tag">05 / tiny surprises</div><h2>سه تا چیز که <em>باید بازشون کنی</em></h2></div>
+        <div class="surprise-grid">
+          <button class="surprise reveal" data-message="نفسم، یه نفس عمیق بکش؛ آروم باش و بدون که لبخندت برای قلبم باارزشه. ♡"><span>♡</span><b>وقتی خسته‌ای</b><small>بازش کن</small></button>
+          <button class="surprise reveal delay-1" data-message="قلبم، لبخند بزن؛ چون دیدن لبخندت یکی از قشنگ‌ترین چیزهای دنیاست. 🎀"><span>✦</span><b>وقتی دلت گرفته</b><small>بازش کن</small></button>
+          <button class="surprise reveal delay-2" data-message="جیگرم، فقط خواستم بدونی بودنت برای من خودش یه عالمه قشنگیه. ♡"><span>♡</span><b>وقتی شک کردی</b><small>بازش کن</small></button>
+        </div>
+      </section>
+
+      <section class="final-section section" id="final">
+        <div class="final-box">
+          <div class="final-stars">✦　♡　✦　♡　✦</div>
+          <p class="final-kicker">just for you ♡</p>
+          <h2>قشنگم،<br><em>این صفحه پر از حسِ قلبمه.</em></h2>
+          <p class="final-text">عمرم، این چندتا قاب و نوشته فقط یه بهونه‌ان برای اینکه بگم بودنت چقدر برای من قشنگه؛ دورت بگردم که با لبخندت دنیا یه ذره شیرین‌تر می‌شه. ♡</p>
+          <button class="final-heart" id="finalHeart">اینجا رو لمس کن ♡</button>
+          <div class="final-sign">— دورت بگردم ♡</div>
+        </div>
+      </section>
+    </main>
+
+    <footer><span>made with ♡</span><b>my little world</b><span>just for you</span></footer>
+  </div>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="close-lightbox" id="closeLightbox" aria-label="بستن">×</button>
+    <img id="lightboxImg" src="" alt="تصویر بزرگ">
+  </div>
+
+  <div class="message-modal" id="messageModal" aria-hidden="true">
+    <div class="message-card"><button class="modal-close" id="modalClose">×</button><div class="modal-icon">♡</div><p id="modalMessage"></p><span>— برای تو</span></div>
+  </div>
+
+  <div class="toast" id="toast">♡</div>
+  <script src="script.js?v=2026.09.27" defer></script>
+</body>
+</html>
